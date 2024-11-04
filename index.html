@@ -61,11 +61,8 @@
         <p><i>Criado por Brendow Rodrigues - 2°C</i></p>
 
         <div id="video-container" class="video-container">
-            <video id="video-player" controls>
-                <source id="video-source" src="" type="video/mp4">
-                Seu navegador não suporta o elemento de vídeo.
-            </video>
-          <button id="close-button" class="button" onclick="fecharVideo()">Fechar</button> <!-- Botão "Fechar" -->
+            <iframe id="video-player" width="100%" height="315" style="display:none;" frameborder="0" allowfullscreen></iframe>
+            <button id="close-button" class="button" onclick="fecharVideo()">Fechar</button>
         </div>
     </div>
     
