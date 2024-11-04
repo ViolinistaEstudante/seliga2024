@@ -1,0 +1,136 @@
+body {
+    font-family: "Lexend", sans-serif;
+    background-image: url(img/background.jpg); /* Fundo verde */
+    margin: 0;
+    padding: 20px;
+    color: #000; /* Letras pretas */
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: "Lexend", sans-serif;
+}
+
+p, i {
+    font-family: "Lexend", sans-serif;
+    color: black; /* Letras brancas */
+    align-items: center;
+    padding-left: 128px;
+}
+
+h1 {
+    color: #000; /* Título em preto */
+    font-family: "Lexend", sans-serif;
+}
+
+h2 {
+    color: #000; /* Subtítulos em preto */
+    font-family: "Lexend", sans-serif;
+}
+
+.card-1trimestre {
+    background: #d4edda; /* Verde claro para os cards */
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s; /* Efeito de transição */
+    border-left: 5px solid #336581; /* Borda verde à esquerda */
+    font-family: "Lexend", sans-serif;
+}
+
+.card-2trimestre {
+    background: #d4edda; /* Verde claro para os cards */
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s; /* Efeito de transição */
+    border-left: 5px solid #dacc9b; /* Borda verde à esquerda */
+    font-family: "Lexend", sans-serif;
+}
+
+.card:hover {
+    background: #c3e6cb; /* Verde um pouco mais escuro ao passar o mouse */
+}
+
+.card h3 {
+    margin: 0;
+    color: #000; /* Texto do card em preto */
+    margin-bottom: 10px; /* Adiciona espaço abaixo do título do card */
+}
+
+.video-container {
+    margin-top: 20px;
+    display: none;
+    text-align: center; /* Centraliza o vídeo */
+    font-family: "Lexend", sans-serif;
+}
+
+#video-player {
+    width: 100%; /* Faz o vídeo ocupar toda a largura do contêiner */
+    border-radius: 8px; /* Adiciona bordas arredondadas ao vídeo */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Adiciona sombra ao vídeo */
+    margin: 20px 0; /* Margem ao redor do vídeo */
+}
+
+.botão1 {
+    background: #336581; /* Cor de fundo verde */
+    color: white; /* Texto em branco */
+    border: none; /* Sem borda */
+    padding: 12px 20px; /* Aumenta o tamanho do botão */
+    border-radius: 8px; /* Bordas arredondadas */
+    cursor: pointer; /* Cursor em forma de mão */
+    transition: background 0.3s, transform 0.2s, box-shadow 0.3s; /* Transições suaves */
+    font-size: 16px; /* Tamanho da fonte */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Sombra ao redor do botão */
+    margin-top: 10px; /* Adiciona margem acima do botão */
+    font-family: "Lexend", sans-serif;
+}
+
+.botão2 {
+    background: #dacc9b; /* Cor de fundo verde */
+    color: black; /* Texto em branco */
+    border: none; /* Sem borda */
+    padding: 12px 20px; /* Aumenta o tamanho do botão */
+    border-radius: 8px; /* Bordas arredondadas */
+    cursor: pointer; /* Cursor em forma de mão */
+    transition: background 0.3s, transform 0.2s, box-shadow 0.3s; /* Transições suaves */
+    font-size: 16px; /* Tamanho da fonte */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Sombra ao redor do botão */
+    margin-top: 10px; /* Adiciona margem acima do botão */
+    font-family: "Lexend", sans-serif;
+}
+
+button:hover {
+    transform: translateY(-4px); /* Efeito de elevação */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4); /* Sombra mais intensa ao passar o mouse */
+}
+
+button:active {
+    transform: translateY(2px); /* Efeito de pressão ao clicar */
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2); /* Sombra reduzida ao clicar */
+}
+
+#close-button {
+    margin-top: 10px; /* Espaçamento acima do botão "Fechar" */
+}
+
+button {
+    background: black; /* Cor de fundo verde */
+    color: white; /* Texto em branco */
+    border: none; /* Sem borda */
+    padding: 12px 20px; /* Aumenta o tamanho do botão */
+    border-radius: 8px; /* Bordas arredondadas */
+    cursor: pointer; /* Cursor em forma de mão */
+    transition: background 0.3s, transform 0.2s, box-shadow 0.3s; /* Transições suaves */
+    font-size: 16px; /* Tamanho da fonte */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Sombra ao redor do botão */
+    margin-top: 10px; /* Adiciona margem acima do botão */
+    font-family: "Lexend", sans-serif;
+}

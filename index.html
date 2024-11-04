@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Se Liga 2024!</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Se Liga 2024! - 2°C </h1>
+        
+        <section id="primeiro-trimestre">
+            <h2>1º Trimestre</h2>
+            <div class="card-1trimestre" onclick="assistir('video1')">
+                <h3>Romance 1</h3>
+                <button class="botão1">Assistir</button>
+            </div>
+            <div class="card-1trimestre" onclick="assistir('video2')">
+                <h3>Romance 2</h3>
+                <button class="botão1">Assistir</button>
+            </div>
+            <div class="card-1trimestre" onclick="assistir('video3')">
+                <h3>Entrevista</h3>
+                <button class="botão1">Assistir</button>
+            </div>
+            <div class="card-1trimestre" onclick="assistir('video4')">
+                <h3>Poema lírico</h3>
+                <button class="botão1">Assistir</button>
+            </div>
+            <div class="card-1trimestre" onclick="assistir('video5')">
+                <h3>Tirinha</h3>
+                <button class="botão1">Assistir</button>
+            </div>
+        </section>
+
+        <section id="segundo-trimestre">
+            <h2>2º Trimestre</h2>
+            <div class="card-2trimestre" onclick="assistir('video6')">
+                <h3>Texto dissertativo-argumentativo</h3>
+                <button class="botão2">Assistir</button>
+            </div>
+            <div class="card-2trimestre" onclick="assistir('video7')">
+                <h3>Artigo de opinião</h3>
+                <button class="botão2">Assistir</button>
+            </div>
+            <div class="card-2trimestre" onclick="assistir('video8')">
+                <h3>Anúncio publicitário 1</h3>
+                <button class="botão2">Assistir</button>
+            </div>
+            <div class="card-2trimestre" onclick="assistir('video9')">
+                <h3>Anúncio publicitário 2</h3>
+                <button class="botão2">Assistir</button>
+            </div>
+        </section>
+
+        <p><i>Criado por Brendow Rodrigues - 2°C</i></p>
+
+        <div id="video-container" class="video-container">
+            <video id="video-player" controls>
+                <source id="video-source" src="" type="video/mp4">
+                Seu navegador não suporta o elemento de vídeo.
+            </video>
+          <button id="close-button" class="button" onclick="fecharVideo()">Fechar</button> <!-- Botão "Fechar" -->
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
